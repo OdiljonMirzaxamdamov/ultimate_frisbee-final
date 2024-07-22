@@ -1,0 +1,215 @@
+{
+  "logs": [
+    {
+      "id": "log004",
+      "list": []
+    },
+    {
+      "id": "log003",
+      "list": []
+    },
+    {
+      "id": "log002",
+      "list": []
+    },
+    {
+      "id": "log001",
+      "list": []
+    }
+  ],
+  "playersScores": [
+    {
+      "id": "s0001",
+      "playerID": "r0001",
+      "goals": 5,
+      "assists": 4,
+      "callahans": 0
+    },
+    {
+      "id": "s0002",
+      "playerID": "r0002",
+      "goals": 23,
+      "assists": 4,
+      "callahans": 1
+    },
+    {
+      "id": "s0003",
+      "playerID": "r0003",
+      "goals": 0,
+      "assists": 23,
+      "callahans": 0
+    }
+  ],
+  "gamesStatistics": [
+    {
+      "id": "gs0001",
+      "scoreList": [
+        "s0001",
+        "s0002",
+        "s0003"
+      ]
+    },
+    {
+      "id": "gs0002",
+      "scoreList": [
+        "s0001",
+        "s0002"
+      ]
+    },
+    {
+      "id": "gs0003",
+      "scoreList": [
+        "s0001",
+        "s0003"
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "r0001",
+      "firstName": "Александр",
+      "secondName": "Кацнельсон",
+      "patronymic": "",
+      "dateOfBirth": "03-02-1988",
+      "g175": "",
+      "vk": "",
+      "fb": "",
+      "email": "",
+      "avatar": "",
+      "isCaptian": true,
+      "isCoach": false,
+      "isSotgCaptain": false,
+      "description": ""
+    }
+  ],
+  "rosters": [
+    {
+      "id": "ros01",
+      "players": [
+        {
+          "id": "r0001",
+          "num": 4
+        }
+      ]
+    },
+    {
+      "id": "ros02",
+      "players": [
+        {
+          "id": "r0001",
+          "num": 4
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "3564gfdfg",
+      "tournamentID": "sdsrd0-8sdfg098xcv0b-vcbn9",
+      "logID": "log001",
+      "ownerID": "sadfa234sda",
+      "teamOneID": "01",
+      "teamTwoID": "02",
+      "inProgress": true,
+      "isFinished": false,
+      "offense": "TEAM_TWO",
+      "win": "TEAM_ONE",
+      "teamOneScore": 5,
+      "teamTwoScore": 3,
+      "codeOne": "C1",
+      "codeTwo": "C3",
+      "teamOneTurnovers": 2,
+      "teamTwoTurnovers": 1,
+      "fullTimeDuration": 0,
+      "teamOneOffenceDuration": 0,
+      "teamTwoOffenceDuration": 0,
+      "SotgTeamOne": [
+        -1
+      ],
+      "SotgTeamTwo": [
+        -1
+      ],
+      "SotgCommentsTeamOne": "",
+      "SotgCommentsTeamTwo": "",
+      "passesTeamOne": 15,
+      "passesTeamTwo": 11,
+      "takenTimeOutsTeamOne": [],
+      "takenTimeOutsTeamTwo": [],
+      "takenSotgTimeOutsTeamOne": [
+        "2430"
+      ],
+      "takenSotgTimeOutsTeamTwo": [],
+      "injuryStoppageTeamOne": 0,
+      "injuryStoppageTeamTwo": 0,
+      "otherCallsTeamOne": 1,
+      "otherCallsTeamTwo": 0,
+      "others": [],
+      "shouldUpload": false,
+      "shouldReload": false,
+      "shouldSetTimer": true,
+      "isUploading": false,
+      "date": "1553929932020",
+      "timeStart": "9:00",
+      "timePassed": 3767,
+      "statisticID": "gs0001",
+      "rosterID": "ros01",
+      "isPull": false,
+      "isTimeOn": false
+    }
+  ],
+  "teams": [
+    {
+      "id": "01",
+      "name": "РеалФайв",
+      "players": 5,
+      "games": 4,
+      "rosterID": "ros01"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "sdsrd0-8sdfg098xcv0b-vcbn9",
+      "name": "Лорд Новгород 2019",
+      "country": "Россия",
+      "place": "Великий Новгород",
+      "dateStart": "15-02-2019",
+      "dateEnd": "17-02-2019",
+      "covering": "Паркет",
+      "format": "5х5",
+      "games": "112",
+      "teams": "44",
+      "teamsList": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "146f9aae-14b1-40c8-9a76-3a2489ed6ff0",
+        "4580e5a4-3a7f-4c6c-9cd1-13719680bdcb",
+        "f8778f0b-c059-4963-8991-9232b10436ec"
+      ],
+      "isMenDivision": false,
+      "isWomenDivision": false,
+      "isMixDivision": false,
+      "ownerId": "sadfa234sda"
+    }
+  ],
+  "users": [
+    {
+      "id": "sadfa234sda",
+      "name": "Vasya",
+      "email": "vasya@gmail.com",
+      "password": "1234",
+      "role": "scorekeeper"
+    },
+    {
+      "id": "ghjnfjhsaasd",
+      "name": "Kolya",
+      "email": "kolya@gmail.com",
+      "password": "5678",
+      "role": "admin"
+    }
+  ],
+  "bearer": {
+    "id": "asdfsdrgfsdfgsdfgdsfg234df234"
+  }
+}
